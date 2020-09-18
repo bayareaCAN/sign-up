@@ -1,0 +1,45 @@
+@media only screen and (min-width: 400px){
+	img {
+		align-content: center;
+		width: 30%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 3px solid white;
+	}
+	button {
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 30px;
+		margin: 4px 2px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+}
+
+img {
+		align-content: center;
+		width: 30%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 3px solid white;
+	}
+	button {
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
