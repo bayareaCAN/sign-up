@@ -6,14 +6,24 @@
 		<link rel="icon" type="image/png" href="./images/baCAN-favicon.png">
 		<title>The Bay Area CAN &dash; Submission Form</title>
 	</head>
-	<body style="background-color: #353434;">
+	<body style="background-color: #353434;" onload="sendText()">
 		<div style="margin-top: 10%;">
 			<img src="./images/can-LOGO.png">
 			<div style="height: 200px; position: relative;">
 				<div style="margin: 0;position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
 					<button style="background-color:#F23A2E; color:white;">Check out our website!</button>
+					<br>
+					<br>
+				</div>
+				<div style="margin: 0;position: absolute; top: 80%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+					<a id="sign-up" style="background-color:#F23A2E; color:white;" href="sms://+19084482862?body=bayareaCAN">Sign Up</a>
 				</div>
 			</div>
 		</div>
 	</body>
+	<script>
+		function sendText() {
+			document.getElementById("sign-up").click();
+		}
+	</script>
 </html>
